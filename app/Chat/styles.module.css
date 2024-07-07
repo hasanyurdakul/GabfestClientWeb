@@ -1,0 +1,33 @@
+.leftPanelGrid {
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.box {
+  color: #3d9970;
+  cursor: pointer;
+}
+.box:hover {
+  color: #3d9970;
+  background-color: rgba(128, 128, 239, 0.1);
+  transform: scale(0.98);
+}
+
+.rightPanelGrid {
+  border: solid 2px rgba(0, 0, 0, 0.2);
+}
+
+.active {
+  background-color: #3d9970;
+  color: #ffffff;
+}
+
+.active:hover {
+  background-color: #cc6613;
+  color: #ffffff;
+}
+
+.dividerText {
+  text-align: center;
+  padding: 10px 0 10px 0;
+  background-color: #3d9970;
+  color: #ffffff;
+}
